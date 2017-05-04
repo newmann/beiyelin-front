@@ -1,0 +1,107 @@
+{
+  "login": {
+    "title": "登录ng2-admin",
+    "signup_link": "ng2-admin的新用户? 请登记!",
+    "email": "邮箱",
+    "password": "口令",
+    "sign_in": "登录",
+    "forgot_password": "忘记密码？",
+    "sign_from_app_text": "或者通过第三方登录",
+    "share_on_facebook": "分享到Facebook",
+    "share_on_twitter": "分享到Twitter",
+    "share_on_google_plus": "分享到Google Plus"
+  },
+  "general": {
+    "akveo": "Akveo",
+    "home": "首页",
+    "forms": {
+      "option1": "选项1"
+    },
+    "menu": {
+      "dashboard": "显示板",
+      "editors": "编辑",
+      "ck_editor": "CKEditor",
+      "components": "组件",
+      "tree_view": "树形显示",
+      "charts": "图表",
+      "chartist_js": "Chartist.Js",
+      "ui_features": "UI功能显示",
+      "typography": "排版",
+      "buttons": "按钮",
+      "icons": "图标",
+      "modals": "模态显示",
+      "grid": "网格",
+      "form_elements": "表单元素",
+      "form_inputs": "表单输入空间",
+      "form_layouts": "表单布局",
+      "tables": "表格",
+      "basic_tables": "基础表格",
+      "smart_tables": "智能表格",
+      "maps": "地图",
+      "google_maps": "谷歌地图",
+      "leaflet_maps": "Leaflet地图",
+      "bubble_maps": "Bubble地图",
+      "line_maps": "Line地图",
+      "pages": "页面",
+      "login": "登录",
+      "register": "注册",
+      "menu_level_1": "菜单 层级 1",
+      "menu_level_1_1": "菜单 层级 1.1",
+      "menu_level_1_2": "菜单 层级 1.2",
+      "menu_level_1_2_1": "菜单 层级 1.2.1",
+      "external_link": "外部链接"
+    },
+    "created_with": "创建方"
+  },
+  "dashboard": {
+    "acquisition_channels": "获得渠道",
+    "users_by_country": "按国家分类的用户",
+    "revenue": "收入",
+    "feed": "种子",
+    "todo_list": "To Do List",
+    "calendar": "Calendar",
+    "new_visits": "New Visits",
+    "purchases": "Purchases",
+    "active_users": "Active Users",
+    "returned": "Returned",
+    "popular_app": {
+      "super_app": "Super App",
+      "most_popular_app": "Most Popular App",
+      "total_visits": "Total Visits",
+      "new_visits": "New Visits",
+      "sales": "Sales"
+    },
+    "todo": {
+      "task_todo": "Task to do.."
+    },
+    "traffic_chart": {
+      "view_total": "Views Total"
+    }
+  },
+  "tree_view": {
+    "title": "basic",
+    "programming": "Programming languages by programming paradigm",
+    "oop": "Object-oriented programming",
+    "java": "Java",
+    "c_plus_plus": "C++",
+    "c_sharp": "C#",
+    "prototype": "Prototype-based programming",
+    "java_script": "JavaScript",
+    "coffee_script": "CoffeeScript",
+    "lua": "Lua"
+  },
+  "chart": {
+    "lines": "Lines",
+    "bars": "Bars",
+    "simple_line_chart": "Simple line chart",
+    "line_chart": "Line chart with area",
+    "bi_polar_line_chart": "Bi-polar line chart with area only",
+    "simple_bar_chart": "Simple bar chart",
+    "multi_line_labels_bar_chart": "Multi-line labels bar chart",
+    "stacked_bar_chart": "Stacked bar chart",
+    "pies_and_donuts": "Pies & Donuts",
+    "simple_pie": "Simple Pie",
+    "pie_with_labels": "Pie with labels",
+    "donut": "Donut"
+  }
+}
