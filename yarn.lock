@@ -302,6 +302,10 @@ angular2-datatable@0.6.0:
   dependencies:
     lodash "^4.0.0"
 
+angular2-jwt@^0.2.3:
+  version "0.2.3"
+  resolved "http://registry.npm.taobao.org/angular2-jwt/download/angular2-jwt-0.2.3.tgz#54efdda3ceedba85f6a37b165f22ac22b8adf021"
+
 animate.css@3.5.2:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-3.5.2.tgz#91e668dc069a808e5e499514867b97aae0166c36"

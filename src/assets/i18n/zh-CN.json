@@ -1,4 +1,28 @@
 {
+  "admin": {
+    "login":{
+      "title": "管理员登录",
+      "userName": "账号",
+      "password": "口令",
+      "sign_in": "登录",
+      "forgot_password": "忘记密码？"
+    }
+  },
+  "person": {
+    "login":{
+      "title": "用户登录",
+      "signup_link": "ng2-admin的新用户? 请登记!",
+      "email": "邮箱",
+      "password": "口令",
+      "sign_in": "登录",
+      "forgot_password": "忘记密码？",
+      "sign_from_app_text": "或者通过第三方登录",
+      "share_on_facebook": "分享到Facebook",
+      "share_on_twitter": "分享到Twitter",
+      "share_on_google_plus": "分享到Google Plus"
+    }
+  },
+
   "login": {
     "title": "登录ng2-admin",
     "signup_link": "ng2-admin的新用户? 请登记!",
@@ -58,14 +82,14 @@
     "users_by_country": "按国家分类的用户",
     "revenue": "收入",
     "feed": "种子",
-    "todo_list": "To Do List",
-    "calendar": "Calendar",
-    "new_visits": "New Visits",
-    "purchases": "Purchases",
-    "active_users": "Active Users",
+    "todo_list": "To Do清单",
+    "calendar": "日历",
+    "new_visits": "新访问者",
+    "purchases": "采购",
+    "active_users": "有效用户",
     "returned": "Returned",
     "popular_app": {
-      "super_app": "Super App",
+      "super_app": "超级APP",
       "most_popular_app": "Most Popular App",
       "total_visits": "Total Visits",
       "new_visits": "New Visits",

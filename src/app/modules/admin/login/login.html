@@ -1,0 +1,28 @@
+<div class="auth-main">
+  <div class="auth-block">
+    <h1 translate>{{'admin.login.title'}}</h1>
+
+    <form [formGroup]="form" (ngSubmit)="onSubmit(form.value)" class="form-horizontal">
+      <div class="form-group row" [ngClass]="{'has-error': (!userName.valid && userName.touched), 'has-success': (userName.valid && userName.touched)}">
+        <label for="inputUserName3" class="col-sm-2 control-label" translate>{{'admin.login.userName'}}</label>
+
+        <div class="col-sm-10">
+          <input [formControl]="userName" type="text" class="form-control" id="inputUserName3" placeholder="{{'admin.login.userName' | translate}}">
+        </div>
+      </div>
+      <div class="form-group row" [ngClass]="{'has-error': (!password.valid && password.touched), 'has-success': (password.valid && password.touched)}">
+        <label for="inputPassword3" class="col-sm-2 control-label" translate>{{'admin.login.password'}}</label>
+
+        <div class="col-sm-10">
+          <input [formControl]="password" type="password" class="form-control" id="inputPassword3" placeholder="{{'admin.login.password' | translate}}">
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="offset-sm-2 col-sm-10">
+          <button [disabled]="!form.valid" type="submit" class="btn btn-default btn-auth" translate>{{'admin.login.sign_in'}}</button>
+          <a routerLink="/forgot-password" class="forgot-pass" translate>{{'admin.login.forgot_password'}}</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
